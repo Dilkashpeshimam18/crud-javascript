@@ -85,8 +85,7 @@ const watchMovie= async()=>{
     console.log('wife:Yeah! we should go in')
     const getIcecream=new Promise((resolve,reject)=>resolve('ice-cream'))
     const getSnacks=new Promise((resolve,reject)=>resolve('snacks'))
-    // let [icecream,snacks] =Promise.all([getIcecream,getSnacks])
-    // console.log(`${icecream} ${snacks}`)
+  
 
     return ticket
 
